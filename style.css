@@ -1,0 +1,68 @@
+* {
+    transition: 1s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.red {
+    background-color: red;
+}
+
+
+body {
+    transition: 1s;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+    
+    img {
+        width: 300px;
+    }
+}
+
+.open {
+    display: block;
+}
+
+.close {
+    opacity: 0;
+}
+
+.time {
+    display: block;
+}
+
+.ontime {
+    opacity: 0;
+}
+
+.anim {
+    animation: anim 5s infinite;
+}
+
+.white {
+    color: #fff;
+}
+
+@keyframes anim {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+
+.blue {
+    color: blue !important;
+}
